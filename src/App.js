@@ -86,6 +86,7 @@ function App() {
           items[isSegment].map((i, key) => {
             return <h6 key={key}>{i}</h6>;
           })}
+        Volume of selected segment:{isCount}
       </div>
 
       <Pie data={data} options={options} />
